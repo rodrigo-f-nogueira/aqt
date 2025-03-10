@@ -29,7 +29,7 @@ test = [
 
 
 [project.urls]
-Source = "https://github.com/google/aqt"
+Source = "https://github.com/rodrigo-f-nogueira/aqt"
 
 [tool.flit.module]
 name = "aqt"
