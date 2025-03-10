@@ -1,5 +1,5 @@
 [project]
-name = "aaaaaqtp"
+name = "aqtp"
 authors = [{name = "Lukasz Lew", email = "lew@google.com"}]
 readme = "README.md"
 license = {file = "LICENSE"}
