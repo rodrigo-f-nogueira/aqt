@@ -16,7 +16,7 @@
 """setup.py for AQT."""
 
 import os
-from setuptools import find_packages
+from setuptools import find_namespace_packages
 from setuptools import setup
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -53,10 +53,9 @@ setup(
     author="Cerebra Catalyst team",
     author_email="cerebra-catalyst-team@google.com",
     url="https://github.com/google/aqt",
-    packages=find_packages(),
+    packages=find_namespace_packages(),
     python_requires=">=3.10",
     zip_safe=False,
-    include_package_data=True,
     extras_require={
         "jax_legacy": jax_legacy_install_requires,
     },
