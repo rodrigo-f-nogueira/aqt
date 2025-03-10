@@ -53,7 +53,7 @@ setup(
     author="Cerebra Catalyst team",
     author_email="cerebra-catalyst-team@google.com",
     url="https://github.com/google/aqt",
-    packages=["aqt.jax.v2"],
+    packages=find_packages(),
     python_requires=">=3.10",
     zip_safe=False,
     include_package_data=True,
